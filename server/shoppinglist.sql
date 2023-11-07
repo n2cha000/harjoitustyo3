@@ -10,7 +10,8 @@ create table item (
     amount smallint unsigned not null
 );
 
-insert into item (description,amount) values ('Test item', 1);
-insert into item (description, amount) values ('Test item', 2):
-insert into item (description, amount) values ('Test item', 3):
+insert into item (description, amount) values ('Test item', 1);
+insert into item (description, amount) values ('Test item', 2);
+
+insert into item (description, amount) values ('Test item', 3);
 

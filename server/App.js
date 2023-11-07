@@ -17,7 +17,6 @@ app.get("/", async (req, res) => {
  const [result, ] = await connection.execute('select * from item')
  if (!result) result = []
  res.status(200).json(result)
-
     } catch (err) {
     res.status(500).json({error: err.message})
 
